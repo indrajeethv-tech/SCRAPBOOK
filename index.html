@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Our Story 💕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="soundGate" class="sound-gate hidden">
+    <button onclick="startExperience()">✨ Tap to Enter ✨</button>
+  </div>
+
+  <div id="lockOverlay" class="lock-overlay"></div>
+
+  <!-- BACKGROUND MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="assets/music/Lovely.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- LOVE LETTER MUSIC -->
+  <audio id="letterMusic">
+    <source src="assets/music/Paravashanadenu (Bhoomi).mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>The Day We Met 💫</h1>
+    <p>Scroll down to relive our story</p>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timeline">
+    <h2>Our Memory Lane 🕰️</h2>
+
+    <div class="event">
+      <span>📅 2023</span>
+      <p>The day it all began——<br>a bus stop, a yellow chudidhar, and the first time I saw you 🌻🤍</p>
+    </div>
+
+    <div class="event">
+      <span>📅 2025</span>
+      <p>The year it all changed.<br>We fought, we stopped talking, we misunderstood each other…<br>but we kept showing up and supporting one another 🤍💫</p>
+    </div>
+  </section>
+
+  <!-- S -->
+  <section class="polaroids">
+    <h2>Captured Moments 📸</h2>
+
+    <div class="polaroid" onclick="openMessage('First picture ever. First time together. Forever special 🪞🤍')">
+      <img src="assets/images/Snapchat-1918507358.jpeg">
+      <p>Click me</p>
+    </div>
+
+    <div class="polaroid" onclick="openMessage('The Tradition, smiles, and my favorite person beside me 🤍🌸 🌸')">
+      <img src="assets/images/IMG_20250226_224503(1).jpeg">
+      <p>Click me</p>
+    </div>
+
+    <div class="polaroid" onclick="openMessage('200+ photos, countless smiles, and one picture I’ll always choose 🤍📸”')">
+      <img src="assets/images/IMG_20240410_192444_153.jpg">
+      <p>Click me</p>
+    </div>
+  </section>
+
+  <!-- RELIVE ONE DAY -->
+  <section class="relive">
+    <h2>If I could relive memories with you…</h2>
+    <p class="relive-text">Back then, we used to text for hours about random things 🌙💬<br>
+      And every day while going home from college, I’d call you 🚶‍♂️📞<br>
+      just to talk, share how the day went, and feel less tired 🌌”<br><br>
+      <br>And today, on your birthday 🎂✨<br>
+      I just wish you a life filled with peace, happiness, and moments that make you smile without trying 💕<br>
+      May all your dreams slowly find their way to you, and may you always feel loved, safe, and proud of who you are 🌸💫<br>
+      Happy Birthday, maa — you’ve always been my comfort, and you always will be forever best friend 🫶🌙</p>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video">
+    <h2>One of My Favorite Memories 🎥</h2>
+    <video controls>
+      <source src="assets/videos/VID_20250913_055937_157.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- EASTER EGG -->
+  <div class="heart" onclick="revealSecret()">❤️</div>
+  <p id="secret" class="hidden">You’re my forever person 🥺💖</p>
+
+  <!-- ENDING -->
+  <section class="ending">
+    <h1>This story doesn’t end here 💕</h1>
+  </section>
+
+  <script src="script.js"></script>
+
+  <!-- LOVE LETTER BUTTON -->
+  <button class="love-btn" onclick="openLetter()">💌 Open My Letter</button>
+
+  <!-- LOVE LETTER POPUP -->
+  <div id="letterPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closeLetter()">×</span>
+      <h2>My BestFriend 💖</h2>
+      <p id="typeText"></p>
+      <a href="https://drive.google.com/drive/folders/1-gTeS47KxWyIlzT8n1VjXoMKRTfY0wed?usp=sharing" target="_blank" class="drive-btn">
+  Your photobook of chaos and charm 🔥💖
+</a>
+
+    </div>
+  </div>
+
+  <!-- EFFECTS -->
+  <canvas id="confetti"></canvas>
+  <div class="hearts"></div>
+</body>
+</html>
