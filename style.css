@@ -279,3 +279,18 @@ body:not(.locked) .love-btn {
   h1 { font-size: 26px; }
   h2 { font-size: 22px; }
 }
+/* 🎥 FULLSCREEN VIDEO FIX (DESKTOP) */
+video:fullscreen,
+video:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  aspect-ratio: auto !important;
+  background: black;
+}
+video {
+  transition: all 0.3s ease;
+}
+
