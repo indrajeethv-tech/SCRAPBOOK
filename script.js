@@ -51,30 +51,38 @@ window.addEventListener("scroll", () => {
 // TYPEWRITER LOVE LETTER
 // ================================
 const letterText = `
-My dearest bhoomi / luzzz 🤍
+My dearest maa… luzzzz… Bhoomi 💗
+
+I don’t know how to begin this letter…because some stories don’t start with words, they start with feelings 🌙
 
 I still remember 7th November 2023 —
-the first time we spoke through texts.
-I don’t remember the exact words I typed, or how the conversation even began…
+the first time we spoke through texts.I don’t remember the exact words I typed, or how the conversation even began…
 but I remember how, from that very moment, something quietly started changing inside me.
 Simple messages slowly turned into memories I now hold close to my heart ✨.
 
 On 24th April 2024, I asked you for a snap for the first time 📸.
 I never knew that a small request would become such a beautiful habit.
 I’ve asked you for more than a hundred snaps since then — and every single time you sent one, my heart smiled.
-Seeing your face, again and again, became my comfort 🥹💖.
+Seeing Myy luzzz face always made my day feel lighter. 🥹✨💖
 
 10th February 2025 is a day I’ll always remember with a heavy heart.
-I spoke about my old school crush, and when you teased me about it, I took it seriously.
-My mood went off, and I didn’t behave the way I should have.
-But you… you called me 3–4 times, even when you were at home, even when your parents were there.
-I didn’t pick up even once — and that’s something I regret.
-The effort you made that day showed me how much I mattered to you, and I will always carry that feeling with me 🤍.
+I told you about seeing my old school crush, and you teased me playfully 😅
+But I took it the wrong way… my mood fell, my heart closed, and I went silent.
+What I’ll never forget is you calling me again and again 📞🥺
+Even when you were at home… even when your parents were there…
+you still tried.
+I didn’t pick up even once —
+yet your effort that day made me realize how much I mattered to you 🤍
+That meant more to me than you’ll ever know.
 
-Then came 14th February 2025 — your birthday 🎂💫.
-The first birthday you celebrated with me, Sev, and your bhava.
-The time we spent together, the pictures we took, the smile I saw on your face —
-that smile is still saved in my heart, untouched by time 🥰📸.
+
+14th February 2025 — your birthday 🎂🌸
+The first birthday of yours that I celebrated with you, Sev, and your Bhava.
+That day lives rent-free in my heart 🥹
+The time we spent, the photo we took 📷,
+and that smile on your face —
+That smile is still one of my favorite memories.
+I swear, I’ve never forgotten it for even a second 💕
 
 On 24th February 2025, our first PU college function 🎉.
 I still remember how I said I wouldn’t come…
@@ -86,6 +94,17 @@ That day, I was travelling home from college, tired and drained, sitting in a bu
 The moment I saw that video, all my tiredness disappeared.
 I smiled like an idiot and didn’t even know how to react 🚌💖.
 
+
+26th October 2025 — after my cousin’s wedding 👰, and we didn’t talk properly for two days.
+I was busy, exhausted, surrounded by people…
+That night when I messaged you, you were angry and said, “Don’t talk to me.”
+When I asked what I should do, you told me to do 100 buski and send a video immediately, or else you wouldn’t talk 😭
+Even though I was with my cousins, I tried my best, did it, sent the video… 
+Seeing you happy after that…
+it made me realise every second worth it 💖
+I still remember that moment clearly 🤍
+
+
 On 29th October 2025, you sent me a Bestestttfriend reel and asked if we should do it together 😂💞.
 We still haven’t done it…
 and there are two such reels waiting for us, patiently, just like some moments do 🤣✨.
@@ -95,14 +114,25 @@ You sent me Paravashanadenu in your own voice — after I had asked you for so l
 From that very day, your voice became my ringtone…
 so every call could begin with you 💖.
 
+And now… here we are.
+Not talking. Not sharing. Not laughing like before 😔
+You promised so many times that you’d be with me…
+and yet, somehow, we drifted apart again.
+I don’t want to lose you, Bhoomi 🥺
+If nothing else…
+Please be with me at least as my best friend 🫶
+I’m truly sorry if I’ve hurt you in any way 🙏
+That was never my intention.
+
 These aren’t just dates or events.
 They are pieces of my heart, scattered across time — all connected to you 🤍.
 
-Happy Birthday, bhoomi 🎂✨
-May your life always be filled with the same warmth, love, and light that you’ve brought into mine.
-No matter where life takes us, a part of my heart will always smile when it thinks of you 💕.
+Happiest Birthday, maa 🎂💖
+May your smile always stay the same, your heart always stay soft, and your life be filled with happiness, peace, and love 🌸💫
+No matter where life takes us, a part of my heart will always smile when it thinks of you 💕, you’ll always be special to me, luzzzz 🤍🫶
 
-— Yours nayiiiiiiiiiii🐶, always 🕊️`;
+Always yours 🫶,
+— nayiiiiiiiiiii🐶`;
 
 let index = 0;
 
@@ -245,3 +275,4 @@ function createHeart() {
 }
 
 setInterval(createHeart, 1200);
+
