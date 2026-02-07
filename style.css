@@ -63,7 +63,7 @@ section {
 /* VIDEO */
 video {
   width: 100%;
-  max-width: 260px;   /* crystal clear but not oversized */
+  max-width: 300px;   /* crystal clear but not oversized */
   height: auto;
   object-fit: contain; /* IMPORTANT */
   display: block;
@@ -296,4 +296,5 @@ video:-ms-fullscreen {
 video {
   transition: all 0.3s ease;
 }
+
 
