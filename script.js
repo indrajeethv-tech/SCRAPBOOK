@@ -8,7 +8,7 @@ const video = document.querySelector(".video video");
 // ================================
 // PASSWORD PROTECTION
 // ================================
-const correctPassword = "b"; // change this
+const correctPassword = "Bhoomima@2007"; // change this
 
 setTimeout(() => {
   let entered = prompt("💖 Enter the secret password:");
@@ -308,3 +308,4 @@ function createHeart() {
 }
 
 setInterval(createHeart, 1200);
+
